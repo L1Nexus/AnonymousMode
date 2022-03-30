@@ -1,0 +1,37 @@
+{
+	"Name": "L1Nexus.AnonymousMode",
+	"Description": "AnonymousMode",
+	"LoadPriority": 3,
+	"RequiredOnClient": false,
+	"Version": "0.2.0",
+	
+	"Scripts": [
+		{
+			"Path": "l1nexus_anonymous.nut",
+			"RunOn": "CLIENT",
+			"ClientCallback": {
+				"After": "l1nexus_anonymous_init"
+			}
+		}
+	],
+
+	"ConVars": [
+		{
+			"Name": "mode",
+			// Digital|Fill|Apexlike
+			"DefaultValue": "Apexlike"
+		},
+		{
+			"Name": "placeholder",
+			"DefaultValue": "******"
+		},
+		{
+			"Name": "prefix",
+			"DefaultValue": "Pilot"
+		},
+		{
+			"Name": "HidePermanentCockpitRui"
+			"DefaultValue": true
+		}
+	]
+}

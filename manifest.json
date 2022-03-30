@@ -1,0 +1,8 @@
+{
+    "name": "AnonymousMode",
+    "description": "Make other players anonymous to you.",
+    "website_url": "https://github.com/EladNLG/HUDRevamp",
+    "dependencies": [
+    ],
+    "version_number": "0.2.0"
+}
